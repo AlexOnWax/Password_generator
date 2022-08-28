@@ -18,14 +18,14 @@ rangeInputs.forEach(input => {
 
 
 //Password generator !--------------------------------------------------------------------------------------------------
-buttonCopie =document.getElementById('export');
-snackBar =document.getElementById('snackbar');
+const buttonCopie =document.getElementById('export');
+const snackBar =document.getElementById('snackbar');
 const characterAmountRange = document.getElementById('input_range_value');
 const characterAmountNumber = document.getElementById('rangevalue');
 
 const includeUppercaseElement = document.getElementById('uppercase');
 const includeNumbersElement = document.getElementById('numbers');
-const includeSymbolsElement = document.getElementById('special characters');
+const includeSymbolsElement = document.getElementById('special_characters');
 const includeLowercaseElement =document.getElementById('lowercase');
 const form = document.getElementById('form');
 
